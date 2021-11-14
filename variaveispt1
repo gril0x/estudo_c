@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(){ 
-  int valor1 = 10;
-  char nome[] = "João";
-  char letra = 'C';
-  float preco = 20.50;
+  int valor1 = 10;  \\Variável tipo int
+  char nome[] = "João"; \\Variável string
+  char letra = 'C'; \\Variável char
+  float preco = 20.50; \\Variável float
   printf("==========================\n");
   printf("O valor 1 é igual a: %d\n", valor1);
   printf("O nome dele é: %s\n", nome);
