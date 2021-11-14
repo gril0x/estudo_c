@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main(){ 
+  int valor1 = 10;
+  char nome[] = "João";
+  char letra = 'C';
+  float preco = 20.50;
+  printf("==========================\n");
+  printf("O valor 1 é igual a: %d\n", valor1);
+  printf("O nome dele é: %s\n", nome);
+  printf("A letra é %c\n", letra);
+  printf("O preço é: R$ %f\n", preco);
+  printf("==========================\n");
+  return 0;
+
+}
